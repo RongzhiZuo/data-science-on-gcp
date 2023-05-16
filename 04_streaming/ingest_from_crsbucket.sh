@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# This script copies the files from the data-science-on-gcp bucket to your bucket
 if [ "$#" -ne 1 ]; then
     echo "Usage: ./ingest_from_crsbucket.sh  destination-bucket-name"
     exit
